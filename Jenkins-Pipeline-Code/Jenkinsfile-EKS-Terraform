@@ -6,11 +6,11 @@ properties([
 ])
 
 pipeline {
-    agent any
+    agent any 
     stages {
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-DevSecOps-Tetris-Project.git'
+                git branch: 'master', url: 'https://github.com/Dadismo/Tetris.git'
             }
         }
         stage('Initializing Terraform') {
