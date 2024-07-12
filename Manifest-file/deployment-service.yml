@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: ism08/tetrisv2:latest
+        image: ism08/tetrisv2:2
         ports:
         - containerPort: 3000
 ---
